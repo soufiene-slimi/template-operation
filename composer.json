@@ -1,0 +1,44 @@
+{
+    "name": "soufiene-slimi/template-operation",
+    "description": "Backpack interface for soufiene-slimi/laravel-form-template",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Soufiene Slimi",
+            "email": "soufiene.slimi@mail.com",
+            "homepage": "https://github.com/soufiene-slimi"
+        }
+    ],
+    "homepage": "https://github.com/soufiene-slimi/template-operation",
+    "keywords": [
+        "Laravel", "TemplateOperation", "Backpack", "Backpack for Laravel", "Backpack Operation",
+        "Backpack Add-On", "Admin Panel", "Admin Interface", "Revision History", "Audit Log"
+    ],
+    "require": {
+        "backpack/crud": "^4.1.0",
+        "soufiene-slimi/laravel-form-template": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SoufieneSlimi\\TemplateOperation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SoufieneSlimi\\TemplateOperation\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SoufieneSlimi\\TemplateOperation\\TemplateOperationServiceProvider"
+            ]
+        }
+    }
+}

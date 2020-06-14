@@ -90,7 +90,7 @@
 @endsection
 
 @section('after_styles')
-{{-- Animations for new revisions after ajax calls --}}
+{{-- styles for template cards --}}
 <style>
     .card-box {
         min-height: 120px;

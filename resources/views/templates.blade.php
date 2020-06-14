@@ -11,9 +11,7 @@ $defaultBreadcrumbs = [
 $breadcrumbs = $breadcrumbs ?? $defaultBreadcrumbs;
 
 $heading = $crud->getHeading() ?? $crud->entity_name_plural;
-$subheading = $crud->getSubheading() ?? @method_exists($entry, 'identifiableName') ?
-trans('template-operation::template.revisions_for').' "'.$entry->identifiableName().'"' :
-trans('template-operation::template.templates');
+$subheading = trans('template-operation::template.templates');
 @endphp
 
 @section('header')

@@ -5,7 +5,7 @@
 [![Quality Score][ico-quality]][link-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Adds an interface for [```soufiene-slimi/laravel-form-template```](https://github.com/VentureCraft/revisionable) to your Backpack CRUDs, so that the admin can:
+Adds an interface for [```soufiene-slimi/laravel-form-template```](https://github.com/soufiene-slimi/laravel-form-template) to your Backpack CRUDs, so that the admin can:
 - save entries forms as a template;
 - apply those template while creating new ones;
 
@@ -44,7 +44,7 @@ class InvoiceCrudController extends CrudController
     use \SoufieneSlimi\TemplateOperation\TemplateOperation;
 ```
 
-For complex usage, head on over to [soufiene-slimi/laravel-form-template](https://github.com/VentureCraft/revisionable) to see the full documentation and extra configuration options.
+For complex usage, head on over to [soufiene-slimi/laravel-form-template](https://github.com/soufiene-slimi/laravel-form-template) to see the full documentation and extra configuration options.
 ## Usage
 
 After installing the operation, you need to define the template fields and validation (if necessary) like in the create operation.
@@ -147,7 +147,7 @@ MIT. Please see the [license file](LICENSE.md) for more information.
 [ico-version]: https://img.shields.io/packagist/v/soufiene-slimi/template-operation.svg
 [ico-build]: https://scrutinizer-ci.com/g/soufiene-slimi/template-operation/badges/build.png?b=master
 [ico-quality]: https://img.shields.io/scrutinizer/g/soufiene-slimi/template-operation.svg
-[ico-downloads]: ☻☻https://img.shields.io/packagist/dt/soufiene-slimi/template-operation.svg
+[ico-downloads]: https://img.shields.io/packagist/dt/soufiene-slimi/template-operation.svg
 
 [link-version]: https://packagist.org/packages/soufiene-slimi/template-operation
 [link-build]: https://scrutinizer-ci.com/g/soufiene-slimi/template-operation/build-status/master

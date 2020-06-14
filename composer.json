@@ -12,7 +12,7 @@
     "homepage": "https://github.com/soufiene-slimi/template-operation",
     "keywords": [
         "Laravel", "TemplateOperation", "Backpack", "Backpack for Laravel", "Backpack Operation",
-        "Backpack Add-On", "Admin Panel", "Admin Interface", "Revision History", "Audit Log"
+        "Backpack Add-On", "Admin Panel", "Admin Interface"
     ],
     "require": {
         "backpack/crud": "^4.1.0",
